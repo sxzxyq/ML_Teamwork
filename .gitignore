@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# Data and models (根据需要忽略大文件)
+data/
+models/
+*.pth
+*.csv  # 如果 submission.csv 是输出文件，可以忽略
+
+# Logs and outputs
+logs/
+output/
+*.log
