@@ -102,8 +102,8 @@ def main():
     sns.heatmap(cm_norm, annot=True, fmt='.2f', cmap='Blues', 
                 xticklabels=['0', '1', '2', '3', '4'],
                 yticklabels=['0', '1', '2', '3', '4'])
-    plt.xlabel('Predicted Label (预测值)')
-    plt.ylabel('True Label (真实值)')
+    plt.xlabel('Predicted Label')
+    plt.ylabel('True Label')
     plt.title(f'Confusion Matrix (Kappa: {kappa:.4f})')
     
     save_path = './output/confusion_matrix.png'
